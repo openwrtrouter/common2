@@ -28,6 +28,8 @@ echo "$var_name=$var_value" >> "${GITHUB_ENV}"
 }
 
 function Diy_variable() {
+
+TIME y "正在执行：读取变量"
 # 读取变量
 case "${SOURCE_CODE}" in
 COOLSNOWWOLF)
